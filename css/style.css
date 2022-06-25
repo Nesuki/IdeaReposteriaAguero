@@ -7,12 +7,14 @@ body {
 
 
   .grid-container {
+    
       display: grid;
       grid-gap: 10px;
       grid-template-columns: [col] auto [col] auto [col] auto [col] auto [col]  ;
       grid-template-rows: [row] auto [row] auto [row] ;
       margin: auto;
       color: #444;
+      
     }
   
     .grid-item {
@@ -21,6 +23,12 @@ body {
       border-radius: 6px;
       padding: 20px;
       font-size: 150%;
+      
+
+      animation-duration: 0.5s;
+      animation-name: aparecer;
+      animation-iteration-count: 1;
+      
   
     }
   
@@ -30,14 +38,18 @@ body {
       display: flex;
       border: 2px solid #FFFF;
       background-color: #FF8FB1
+
       width:100%;
     }
+
 
     .a {
       grid-column: col 1 / span 4;
       grid-row: row ;
       justify-content: center;
       width: 100%;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
+      
     }
     .b {
       display: flex;
@@ -45,24 +57,29 @@ body {
       grid-column: col 1 / span 4 ;
       grid-row: row 2;
       height: auto;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
+      
 
     }
     .c {
       grid-column: col 1 / span 1;
       grid-row: row 3 ;
       height: auto;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
     }
     .d {
       display: flex;
       text-align: center;
       grid-column: col 2 / span 3 ;
       grid-row: row 3 ;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
     }
   
     .f{
       grid-column: col 2 / span 3;
       grid-row: row 4;
       height: auto;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
     }
 
     .g {
@@ -70,12 +87,14 @@ body {
       text-align: center;
       grid-column: col 1 /span 1;
       grid-row: row 4;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
     }
 
     .h {
       grid-column: col 1 / span 1;
       grid-row: row 5;
       height: auto;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
     }
 
     .i {
@@ -83,6 +102,7 @@ body {
       text-align: center;
       grid-column: col 2 / span 3;
       grid-row: row 5;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
     }
 
     .j {
@@ -92,11 +112,13 @@ body {
       height: auto;
       width: auto;
       justify-content: center;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
     }
 
     .e {
       grid-column: col / span 4;
       grid-row: row 6;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
     }
 
     #Encabezado .flexgroup{
@@ -124,6 +146,34 @@ body {
     font-weight: normal;
     font-size: 25px;
 }
+
+a:hover {
+  text-decoration:none;
+  color: white;
+  transition: 0.5s;
+}
+
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+
+
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px) {
   body {
