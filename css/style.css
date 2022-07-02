@@ -109,8 +109,9 @@ body {
       display: flex;
       grid-column: col 1 / span 4 ;
       grid-row: row 1;
-      height: auto;
-      width: auto;
+      height: 100%;
+    
+
       justify-content: center;
       background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
     }
@@ -119,6 +120,15 @@ body {
       grid-column: col / span 4;
       grid-row: row 6;
       background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
+    }
+
+    .k {
+      display: flex;
+      grid-column: col 1 / span 1 ;
+      grid-row: row 5;
+      height: 39rem;
+      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
+      
     }
 
     #Encabezado .flexgroup{
@@ -245,11 +255,24 @@ a:hover {
 
   .j {
     display: flex;
-    grid-column: col 1 / span 4 ;
+    grid-column: col 1 / span 1 ;
     grid-row: row 1;
-    height: 50%;
-    justify-content: left;
+    height: 8rem;
+    max-width: 19rem;
+    justify-content: center;
   }
+
+
+  .k {
+    display: flex;
+    grid-column: col 1 / span 1 ;
+    grid-row: row 5;
+    height: 8rem;
+    justify-content: center;
+    background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
+    
+  }
+
 
   .e {
     display: flex;
@@ -257,6 +280,7 @@ a:hover {
     grid-row: row 6;
   }
 
+  
 
 
 
