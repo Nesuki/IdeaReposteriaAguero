@@ -1,8 +1,10 @@
 body {
-    margin: 40px;
+    background-color: #E2D6BE;
   }
   
-
+  #FotoYDescripciones {
+    background-color: #000;
+  }
 
 
 
@@ -37,7 +39,7 @@ body {
       justify-content: center;
       display: flex;
       border: 2px solid #FFFF;
-      background-color: #FF8FB1
+      background-color: #FF8FB1:
 
       width:100%;
     }
@@ -48,7 +50,8 @@ body {
       grid-row: row ;
       justify-content: center;
       width: 100%;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
+      height: 100%;
+      background-color: #000
       
     }
     .b {
@@ -57,7 +60,7 @@ body {
       grid-column: col 1 / span 4 ;
       grid-row: row 2;
       height: auto;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
+      background-color: #000;
       
 
     }
@@ -65,55 +68,60 @@ body {
       grid-column: col 1 / span 1;
       grid-row: row 3 ;
       height: auto;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
-    }
+      background-color: #E2D6BE;
+     }
     .d {
       display: flex;
       text-align: center;
       grid-column: col 2 / span 3 ;
       grid-row: row 3 ;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
-    }
+      background-color: #E2D6BE; 
+      color: #000;
+      }
   
     .f{
       grid-column: col 2 / span 3;
       grid-row: row 4;
       height: auto;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
-    }
+      background-color: #E2D6BE;
+      
+      }
 
     .g {
       display: flex;
       text-align: center;
       grid-column: col 1 /span 1;
       grid-row: row 4;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
-    }
+      background-color: #E2D6BE;  
+      color: #000;
+     }
 
     .h {
       grid-column: col 1 / span 1;
       grid-row: row 5;
       height: auto;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
-    }
+      background-color: #E2D6BE;   
+     }
 
     .i {
       display: flex;
       text-align: center;
       grid-column: col 2 / span 3;
       grid-row: row 5;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
-    }
+      background-color: #E2D6BE; 
+      color: #000;
+      }
 
     .j {
       display: flex;
-      grid-column: col 1 / span 4 ;
+      grid-column: col 1 / span 7 ;
       grid-row: row 1;
       height: 100%;
     
 
       justify-content: center;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
+      background-color: #F7F7F7;
+
     }
 
     .e {
@@ -131,6 +139,7 @@ body {
       
     }
 
+
     #Encabezado .flexgroup{
       display: flex;
       flex-direction: row;
@@ -141,10 +150,10 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
-    background-color: #FF8FB1;
+    background-color: #E2D6BE;
     color: #fff;
     padding: 12px;
-    margin: 01px;
+    margin: 1px;
     height: 61px;
     width: 100%;
   }
@@ -164,6 +173,8 @@ a:hover {
 }
 
 
+
+
 @keyframes aparecer {
   0% {
     opacity: 0;
@@ -176,6 +187,11 @@ a:hover {
   }
 
 }
+
+footer {
+  background-color: #E2BD7C;
+}
+
 
 
 
