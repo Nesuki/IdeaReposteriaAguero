@@ -6,6 +6,10 @@ body {
     background-color: #000;
   }
 
+  #Producto_Uno, #Producto_Dos, #Producto_Tres {
+    background-color: #000;
+
+  }
 
 
   .grid-container {
