@@ -13,6 +13,9 @@ body {
     background-color: #000;
 
   }
+  .widgetheading {
+    font-family: 'Pacifico', cursive;
+  }
 
 
   .grid-container {
@@ -167,6 +170,7 @@ body {
     margin: 1px;
     height: 61px;
     width: 100%;
+    
   }
   a:link {
     text-decoration:none;
@@ -175,12 +179,14 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
+    font-family: 'Pacifico', cursive
 }
 
 a:hover {
   text-decoration:none;
   color: white;
   transition: 0.5s;
+  
 }
 
 
@@ -208,9 +214,6 @@ footer {
 
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: rgb(68, 127, 146);
-  }
   .flex-item {
     width: 100%;
   }
@@ -291,7 +294,7 @@ footer {
     grid-row: row 5;
     height: 8rem;
     justify-content: center;
-    background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
+    
     
   }
 
