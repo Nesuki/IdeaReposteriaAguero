@@ -108,15 +108,20 @@ body {
       grid-row: row 5;
       height: auto;
       background-color: #E2D6BE;   
+      margin-bottom: 10px;
      }
 
     .i {
       display: flex;
+      align-items: center; 
+      justify-content: center; 
+      flex-direction: column;
       text-align: center;
       grid-column: col 2 / span 3;
       grid-row: row 5;
       background-color: #E2D6BE; 
       color: #000;
+      margin-bottom: 10px;
       }
 
     .j {
