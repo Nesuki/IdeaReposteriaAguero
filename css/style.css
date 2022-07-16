@@ -2,6 +2,9 @@ body {
     background-color: #E2D6BE;
   }
   
+  ul {
+    list-style-type: none;
+}
   #FotoYDescripciones {
     background-color: #000;
   }
@@ -139,8 +142,7 @@ body {
       grid-column: col 1 / span 1 ;
       grid-row: row 5;
       height: 39rem;
-      background-image: linear-gradient(rgb(238, 97, 97), rgb(122, 122, 122))
-      
+      background-color: #000;      
     }
 
 
