@@ -83,7 +83,7 @@ body {
     .d {
       display: flex;
       text-align: center;
-      grid-column: col 2 / span 3 ;
+      grid-column: col 2 / span 4 ;
       grid-row: row 3 ;
       background-color: #E2D6BE; 
       color: #000;
@@ -147,12 +147,37 @@ body {
 
     .k {
       display: flex;
+      justify-content: center;
+      justify-items: center;
+      justify-self: center;
       grid-column: col 1 / span 1 ;
       grid-row: row 5;
-      height: 39rem;
+      height: auto;
       background-color: #000;      
     }
 
+    .l {
+      display: flex;
+      text-align: center;
+      grid-column: col 1 / span 4 ;
+      grid-row: row 5 ;
+      background-color: #E2D6BE; 
+      color: #000; 
+
+    }
+
+    .map {
+      display: flex;
+      grid-column: col 1 / span 4 ;
+      grid-row: row 1;
+      height: auto;
+      width: auto;
+      position: relative;
+      overflow-x: hidden;
+      justify-content: center;
+      
+      
+    }
 
     #Encabezado .flexgroup{
       display: flex;
@@ -285,6 +310,7 @@ footer {
     height: 8rem;
     max-width: 19rem;
     justify-content: center;
+    justify-items: center;
   }
 
 
@@ -293,6 +319,9 @@ footer {
     grid-column: col 1 / span 1 ;
     grid-row: row 5;
     height: 8rem;
+    width: auto;
+    position: relative;
+    overflow-x: hidden;
     justify-content: center;
     
     
@@ -303,6 +332,19 @@ footer {
     display: flex;
     grid-column: col / span 4;
     grid-row: row 6;
+  }
+
+  .map {
+    display: flex;
+    grid-column: col 1 / span 3 ;
+    grid-row: row 2;
+    height: auto;
+    width: auto;
+    position: relative;
+    overflow-x: hidden;
+    justify-content: center;
+    
+    
   }
 
   
